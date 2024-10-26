@@ -6,7 +6,7 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/paper_imgs/vita.png" class="teaser img-fluid z-depth-1">
+    <img src="assets/paper_imgs/p3.png" class="teaser img-fluid z-depth-1">
   </div>
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title">Frontier Exploration for Disaster Management UAVs</div>
@@ -25,7 +25,7 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/paper_imgs/vita.png" class="teaser img-fluid z-depth-1">
+    <img src="assets/paper_imgs/p2.png" class="teaser img-fluid z-depth-1">
   </div>
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title">Human Detection and Localization in Indoor Disaster Environments Using UAVs</div>
@@ -44,7 +44,7 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/paper_imgs/vita.png" class="teaser img-fluid z-depth-1">
+    <img src="assets/paper_imgs/p1.png" class="teaser img-fluid z-depth-1">
   </div>
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title">Mitigating the Zero Biased Steering Angles in Self-driving Simulator Datasets</div>
