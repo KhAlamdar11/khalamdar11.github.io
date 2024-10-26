@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a PhD student, currently affiliated with the Computer Vision Group at the University of Bonn, Germany. I am supervised by [Professor Dr. Jürgen Gall](https://pages.iai.uni-bonn.de/gall_juergen/), and am working in the domain of Long-Term Video Recognition and Anticipation.
+I am a recent graduate of , currently affiliated with the Computer Vision Group at the University of Bonn, Germany. I am supervised by [Professor Dr. Jürgen Gall](https://pages.iai.uni-bonn.de/gall_juergen/), and am working in the domain of Long-Term Video Recognition and Anticipation.
 
 Previously I was a researcher in computer vision, affiliated with the [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/){:target="_blank"} at the [Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/){:target="_blank"}. I was supervised by [Dr. Salman Khan](https://scholar.google.com.pk/citations?user=M59O9lkAAAAJ&hl=en){:target="_blank"}.
 
