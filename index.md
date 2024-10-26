@@ -4,37 +4,26 @@ layout: homepage
 
 ## About Me
 
-I am a recent graduate of , currently affiliated with the Computer Vision Group at the University of Bonn, Germany. I am supervised by [Professor Dr. Jürgen Gall](https://pages.iai.uni-bonn.de/gall_juergen/), and am working in the domain of Long-Term Video Recognition and Anticipation.
+I am a recent graduate with a Master's in [Intelligent Field Robotic Systems (IFRoS)](https://ifrosmaster.org/) from the Erasmus Mundus program. My academic journey culminated in a master's thesis at the [Laboratory for Robotics and Intelligent Control Systems (LARICS)](https://larics.fer.hr/) at the University of Zagreb, where I focused on connectivity maintenance of ad-hoc UAV networks for multi-robot missions.
 
-Previously I was a researcher in computer vision, affiliated with the [Intelligent Visual Analytics Lab (IVAL)](https://www.ival-mbzuai.com/){:target="_blank"} at the [Mohamed Bin Zayed University of Artificial Intelligence (MBZUAI)](https://mbzuai.ac.ae/){:target="_blank"}. I was supervised by [Dr. Salman Khan](https://scholar.google.com.pk/citations?user=M59O9lkAAAAJ&hl=en){:target="_blank"}.
+I hold an undergraduate degree in Electrical Engineering, with a focus on robotics and computer vision, from [Habib University](https://habib.edu.pk/) in 2022.
 
-I completed my master's degree in [Image Processing and Computer Vision (IPCV)](http://ipcv.eu/){:target="_blank"} funded by the Erasmus Mundus Joint Master's Degree (EMJMD) scholarship program. During the master's program, I was fortunate to have interned at  the [Empathic Computing Lab](http://empathiccomputing.org/){:target="_blank"} supervised by [Dr. Mark Billinghurst](https://scholar.google.com/citations?user=S-J_ItYAAAAJ&hl=en){:target="_blank"}. I completed my [master's thesis](assets/files/msc_thesis_wasim_syedtalal.pdf){:target="_blank"} in the [CVLAB](https://www.epfl.ch/labs/cvlab/){:target="_blank"} at EPFL supervised by [Dr. Mathieu Salzmann](https://scholar.google.com/citations?user=n-B0jr4AAAAJ&hl=en&oi=ao){:target="_blank"}.
+With a strong background in autonomous systems, multi-robot systems, and computer vision, I have honed my skills in various programming languages and software tools, including ROS/ROS 2, Gazebo, MATLAB, Python, and C++. 
 
-I hold an undergraduate degree in Electrical Engineering, with a minor in computer science, from [Habib University](https://habib.edu.pk/){:target="_blank"} in Karachi, Paksitan.
-
-My previous website listing high-school, undrgraduate and graduate courses and projects can be found at [talalwasim.weebly.com](https://talalwasim.weebly.com/){:target="_blank"}.
 
 ## Research Interests
 
-- **Computer Vision:** image and video understanding, action anticipation, multimodal learning
-- **Machine Learning:** self-supervised learning, out-of-distribution generalization
+- **Robotics:** autonomous systems, autonomous exploration, disaster robotics
+- **Muli-robot Systems:** decentralized control, connectivity maintainance control
 
 ## News
-- **[Jan. 2024]** I started working as a PhD student at the University of Bonn, Germany working on Video Action Anticipation.
-- **[Oct. 2023]** Our paper titled "Hardware Resilience Properties of Text-Guided Image Classifiers" is accepted in NeurIPS 2023.
-- **[Aug. 2023]** Our paper titled "Video-FocalNets: Spatio-Temporal Focal Modulation for Video Action Recognition" is accepted in ICCV 2023.
-- **[Aug. 2023]** Our paper titled "Self-regulating Prompts: Foundational Model Adaptation without Forgetting" is accepted in ICCV 2023.
-- **[Jun. 2023]** Our paper titled "Toward Automatic Typography Analysis: Serif Classification and Font Similarities" is accepted in the Journal of Data Mining in Digital Humanities (JDMDH).
-- **[Mar. 2023]** Our paper titled "Vita-CLIP: Video and text adaptive CLIP via Multimodal Prompting" is accepted in CVPR 2023.
-- **[Jun. 2022]** Our paper titled "Using Facial Micro-Expressions in Combination With EEG and Physiological Signals for Emotion Recognition" is accepted in the Frontiers in Psychology.
-- **[Apr. 2022]** I started working as a researcher at [MBZUAI](https://mbzuai.ac.ae/){:target="_blank"}. I was supervised by [Dr. Salman Khan](https://scholar.google.com.pk/citations?user=M59O9lkAAAAJ&hl=en){:target="_blank"}, working on multimodal video understanding.
-- **[Jul. 2021]** I was accepted in the ETH Robotics Summer School and Symposium.
-- **[Jun. 2021]** I defended my [master's thesis](assets/files/msc_thesis_wasim_syedtalal.pdf){:target="_blank"} and graduated from the [IPCV](http://ipcv.eu/){:target="_blank"} master's program.
-- **[May. 2021]** Our paper on synthetic data for object detection is accepted to CVPR 2021 CV4Animals workshop.
-- **[Feb. 2021]** I started my master's thesis in the [CVLAB](https://www.epfl.ch/labs/cvlab/){:target="_blank"} at EPFL supervised by [Dr. Mathieu Salzmann](https://scholar.google.com/citations?user=n-B0jr4AAAAJ&hl=en&oi=ao){:target="_blank"}. I worked on automated typography analysis on figurative content.
-- **[Jul. 2020]** I started a remote research internship at the [Empathic Computing Lab](http://empathiccomputing.org/){:target="_blank"} supervised by [Dr. Mark Billinghurst](https://scholar.google.com/citations?user=S-J_ItYAAAAJ&hl=en){:target="_blank"}.
-- **[Sep. 2019]** I started my master's degree in [Image Processing and Computer Vision (IPCV)](http://ipcv.eu/){:target="_blank"} funded by the Erasmus Mundus Joint Master's Degree (EMJMD) scholarship program.
-- **[Jun. 2019]** I completed my undergraduate degree in Electrical Engineering with a Minor in computer science. Graduated first in class with the Dean's Medal.
+- **[Jun. 2024]** Completed Master's in [Intelligent Field Robotic Systems (IFRoS)](https://ifrosmaster.org/)
+- **[March. 2024]** Began my graduate thesis at [LARICS](https://larics.fer.hr/) at the University of Zagreb, focusing on connectivity maintenance of ad-hoc UAV networks for multi-robot missions.
+- **[Oct. 2023]** Joined the University of Zagreb for the third semester of EMJD [IFRoS Masters]((https://ifrosmaster.org/)), specializing in aerial robotics and multi-robot systems.
+- **[Dec. 2022]** Presented my first first-authored work, "Frontier Exploration for Disaster Management UAVs", remotely at the 2022 IEEE International Conference on Robotics and Biomimetics (ROBIO).
+- **[Sept. 2022]**  Started the first year of the EMJD [IFRoS Masters]((https://ifrosmaster.org/)) at the University of Girona.
+- **[Jun. 2022]** Graduated from [Habib University](https://habib.edu.pk/) with the highest academic achievement in the EE class of 2022 and received the best undergraduate thesis award.
+
 
 {% include_relative _includes/publications.md %}
 
