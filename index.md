@@ -27,4 +27,4 @@ With a strong background in autonomous systems, multi-robot systems, and compute
 
 {% include_relative _includes/publications.md %}
 
-{% include_relative _includes/services.md %}
+<!-- {% include_relative _includes/services.md %} -->
