@@ -6,7 +6,7 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/paper_imgs/disaster_uav.png" class="teaser img-fluid z-depth-1">
+    <img src="assets/paper_imgs/vita.png" class="teaser img-fluid z-depth-1">
   </div>
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title">Frontier Exploration for Disaster Management UAVs</div>
@@ -14,6 +14,7 @@
     <div class="periodical"><em>IEEE International Conference on Robotics and Biomimetics (ROBIO), 2022.</em></div>
     <div class="links">
       <a href="https://ieeexplore.ieee.org/document/10011693" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
+      <a href="https://www.youtube.com/watch?v=EyEW8sv9_-g" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
     </div>
   </div>
 </div>
@@ -24,7 +25,7 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/paper_imgs/human_detection.png" class="teaser img-fluid z-depth-1">
+    <img src="assets/paper_imgs/vita.png" class="teaser img-fluid z-depth-1">
   </div>
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title">Human Detection and Localization in Indoor Disaster Environments Using UAVs</div>
@@ -32,6 +33,7 @@
     <div class="periodical"><em>IEEE International Conference on Robotics and Computer Vision (ICRCV), 2022.</em></div>
     <div class="links">
       <a href="https://ieeexplore.ieee.org/document/9953174" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
+      <a href="https://www.youtube.com/watch?v=EyEW8sv9_-g" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
     </div>
   </div>
 </div>
@@ -42,7 +44,7 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/paper_imgs/steering_angles.png" class="teaser img-fluid z-depth-1">
+    <img src="assets/paper_imgs/vita.png" class="teaser img-fluid z-depth-1">
   </div>
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title">Mitigating the Zero Biased Steering Angles in Self-driving Simulator Datasets</div>
@@ -50,6 +52,7 @@
     <div class="periodical"><em>VISIGRAPP (VISAPP), 2022.</em></div>
     <div class="links">
       <a href="https://www.scitepress.org/PublicationsDetail.aspx?ID=2Sz4o9GCxpU=&t=1" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
+      <a href="https://www.youtube.com/watch?v=cv-963rPr24" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
     </div>
   </div>
 </div>
