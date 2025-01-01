@@ -10,7 +10,7 @@
       max-width: 100%; /* Ensures responsive resizing */
       height: auto; /* Maintains aspect ratio */
       width: 300px; /* Fixed width for consistency */
-      max-height: 150px; /* Prevents the GIF from exceeding frame height */
+      max-height: 200px; /* Prevents the GIF from exceeding frame height */
       object-fit: cover; /* Fills the frame while maintaining proportions */
     }
   </style>
