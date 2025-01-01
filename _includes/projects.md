@@ -13,6 +13,17 @@
       max-height: 200px; /* Prevents the GIF from exceeding frame height */
       object-fit: cover; /* Fills the frame while maintaining proportions */
     }
+
+    /* Remove numbering from the ordered list */
+    .bibliography {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    .bibliography li {
+      margin-bottom: 20px;
+    }
   </style>
 </head>
 <body>
