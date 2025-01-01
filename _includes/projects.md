@@ -6,7 +6,7 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/paper_imgs/p1.png" class="teaser img-fluid z-depth-1">
+    <img src="assets/paper_imgs/add_agent_near.gif" class="teaser img-fluid z-depth-1">
   </div>
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title"><strong>Connectivity Maintenance in Ad-hoc UAV Networks for Multi-robot Missions</strong></div>
