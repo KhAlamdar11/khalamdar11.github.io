@@ -21,7 +21,7 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/project_imgs/map_a1.gif" class="teaser img-fluid z-depth-1">
+    <img src="assets/project_imgs/reynolds.gif" class="teaser img-fluid z-depth-1">
   </div>
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title"><strong>Flocking, Rendezvous and Formation Control of Multi Agent Systems</strong></div>
@@ -51,7 +51,7 @@
 <li>
 <div class="pub-row">
   <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-    <img src="assets/paper_imgs/capstone1.gif" class="teaser img-fluid z-depth-1">
+    <img src="assets/project_imgs/capstone1.gif" class="teaser img-fluid z-depth-1">
   </div>
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
     <div class="title"><strong>Autonomous Mapping and Human Localization for Indoor Disaster Management UAVs</strong></div>
