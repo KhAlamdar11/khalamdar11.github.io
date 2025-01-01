@@ -7,7 +7,7 @@
   <style>
     /* CSS for consistent image sizing */
     .teaser {
-      width: 150px; /* Set a consistent width */
+      width: 300px; /* Set a consistent width */
       height: 150px; /* Set a consistent height */
       object-fit: cover; /* Ensures images fill the area while preserving aspect ratio */
       border-radius: 8px; /* Optional: Adds rounded corners */
