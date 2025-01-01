@@ -7,11 +7,11 @@
   <style>
     /* CSS for consistent image sizing */
     .teaser {
-      width: 300px; /* Set a consistent width */
-      height: 150px; /* Set a consistent height */
-      object-fit: cover; /* Ensures images fill the area while preserving aspect ratio */
-      border-radius: 8px; /* Optional: Adds rounded corners */
-      box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Optional: Adds a subtle shadow */
+      max-width: 100%; /* Ensures responsive resizing */
+      height: auto; /* Maintains aspect ratio */
+      width: 300px; /* Fixed width for consistency */
+      max-height: 150px; /* Prevents the GIF from exceeding frame height */
+      object-fit: cover; /* Fills the frame while maintaining proportions */
     }
   </style>
 </head>
