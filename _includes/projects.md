@@ -109,7 +109,7 @@
   <li>
       <div class="pub-row">
         <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-          <img src="assets/project_imgs/capstone1.gif" class="teaser img-fluid z-depth-1">
+          <img src="assets/project_imgs/minidrone.png" class="teaser img-fluid z-depth-1">
         </div>
         <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
           <div class="title"><strong>Mathworks Minidrone Competition (EMEA ’21)</strong></div>
@@ -128,14 +128,14 @@
   <li>
       <div class="pub-row">
         <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-          <img src="assets/project_imgs/capstone1.gif" class="teaser img-fluid z-depth-1">
+          <img src="assets/project_imgs/wheel-e.jpeg" class="teaser img-fluid z-depth-1">
         </div>
         <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
           <div class="title"><strong>WHEEL-E: A Self-Balancing Robot</strong></div>
           <div class="periodical"><em>Habib University (2020)</em></div>
           <div class="description">A self balancing robot developed as the final project for Principles of Feedback Control course in spring 2020 semester. The bot was capable of (modestly) balancing itself and maintaining upright position on 2 wheels. Arduino UNO R3 along with MPU6050, L298N motor driver and Pololu gear motors were used in this built. PID algorithm was implemented to balance the bot.</div>
           <div class="links">
-            <a href="https://github.com/KhAlamdar11/WHEEL-E" role="button" target="_blank" style="font-size:12px;">Code</a>
+            <a href="https://github.com/KhAlamdar11/WHEEL-E" class="btn btn-primary btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Code</a>
             <a href="https://youtu.be/H8IEg2Rn4-M?si=s9FixfFCOtKjuyyL" class="btn btn-primary btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
           </div>
         </div>
@@ -147,7 +147,7 @@
   <li>
       <div class="pub-row">
         <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-          <img src="assets/project_imgs/capstone1.gif" class="teaser img-fluid z-depth-1">
+          <img src="assets/project_imgs/mariana.png" class="teaser img-fluid z-depth-1">
         </div>
         <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
           <div class="title"><strong>Mariana Trench Fishing</strong></div>
