@@ -41,11 +41,11 @@
         <div class="title"><strong>Connectivity Maintenance in Ad-hoc UAV Networks for Multi-robot Missions</strong></div>
         <div class="affiliation"><em>Master’s Thesis - University of Zagreb</em></div>
         <div class="description">Modified a classic connectivity controller to include battery awareness and fault tolerance for a swarm of UAVs. Analyzed the feasibility of Graph Neural Networks (GNNs) for imitation learning. Demonstrated a full fleet management system using Bitcraze Crazyflie UAVs.</div>
+      </div>
       <div class="links">
-        <a href="https://www.scitepress.org/PublicationsDetail.aspx?ID=2Sz4o9GCxpU=&t=1" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
-        <a href="https://www.youtube.com/watch?v=cv-963rPr24" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
-      </div>
-      </div>
+          <a href="https://www.scitepress.org/PublicationsDetail.aspx?ID=2Sz4o9GCxpU=&t=1" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
+          <a href="https://www.youtube.com/watch?v=cv-963rPr24" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
+        </div>
       </div>
     </div>
   </li>
