@@ -78,20 +78,21 @@
   <br>
 
   <li>
-    <div class="pub-row">
-      <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
-        <img src="assets/project_imgs/capstone1.gif" class="teaser">
-      </div>
-      <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
-        <div class="title"><strong>Autonomous Mapping and Human Localization for Indoor Disaster Management UAVs</strong></div>
-        <div class="affiliation"><em>Bachelor’s Thesis - Habib University</em></div>
-        <div class="description">Developed an exploration algorithm tailored for UAVs in GPS-denied environments. Implemented a module to detect and localize human survivors using YoloV3. Simulated using a PX4 quadrotor in disaster-like environments.</div>
-        <div class="links">
-          <a href="https://hira.habib.edu.pk/jspui/handle/123456789/476" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Thesis</a>
+      <div class="pub-row">
+        <div class="col-sm-3 abbr" style="position: relative;padding-right: 15px;padding-left: 15px;">
+          <img src="assets/project_imgs/capstone1.gif" class="teaser img-fluid z-depth-1">
+        </div>
+        <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
+          <div class="title"><strong>Autonomous Mapping and Human Localization for Indoor Disaster Management UAVs</strong></div>
+          <div class="periodical"><em>Bachelor’s Thesis - Habib University</em></div>
+          <div class="description">Developed an exploration algorithm tailored for UAVs in GPS-denied environments. Implemented a module to detect and localize human survivors using YoloV3. Simulated using a PX4 quadrotor in disaster-like environments.</div>
+          <div class="links">
+            <a href="https://hira.habib.edu.pk/jspui/handle/123456789/476" class="btn btn-primary btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Thesis</a>
+          </div>
         </div>
       </div>
-    </div>
   </li>
+
 
   </ol>
   </div>
