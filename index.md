@@ -17,8 +17,9 @@ With a strong background in autonomous systems, multi-robot systems, and compute
 - **Muli-robot Systems:** decentralized control, connectivity maintainance control
 
 ## News
+- **[Feb. 2025]** Started working as a researcher at the [Laboratory for Robotics and Intelligent Control Systems](https://larics.fer.hr/), FER, at the University of Zagreb, focusing on multi-robot systems for search and rescue missions.
 - **[Jun. 2024]** Completed Master's in [Intelligent Field Robotic Systems (IFRoS)](https://ifrosmaster.org/)
-- **[March. 2024]** Began my graduate thesis at [LARICS](https://larics.fer.hr/) at the University of Zagreb, focusing on connectivity maintenance of ad-hoc UAV networks for multi-robot missions.
+- **[March. 2024]** Began graduate thesis at [LARICS](https://larics.fer.hr/) at the University of Zagreb, focusing on connectivity maintenance of ad-hoc UAV networks for multi-robot missions.
 - **[Oct. 2023]** Joined the University of Zagreb for the third semester of EMJD [IFRoS Masters]((https://ifrosmaster.org/)), specializing in aerial robotics and multi-robot systems.
 - **[Dec. 2022]** Presented my first first-authored work, "Frontier Exploration for Disaster Management UAVs", remotely at the 2022 IEEE International Conference on Robotics and Biomimetics (ROBIO).
 - **[Sept. 2022]**  Started the first year of the EMJD [IFRoS Masters]((https://ifrosmaster.org/)) at the University of Girona.
