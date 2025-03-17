@@ -4,7 +4,7 @@ layout: homepage
 
 ## About Me
 
-I am a recent graduate with a Master's in [Intelligent Field Robotic Systems (IFRoS)](https://ifrosmaster.org/) from the Erasmus Mundus program. My academic journey culminated in a master's thesis at the [Laboratory for Robotics and Intelligent Control Systems (LARICS)](https://larics.fer.hr/) at the University of Zagreb, where I focused on connectivity maintenance of ad-hoc UAV networks for multi-robot missions.
+I am a researcher at the [Laboratory for Robotics and Intelligent Control Systems (LARICS)](https://larics.fer.hr/), FER, at the University of Zagreb, focusing on multi-robot systems for search and rescue missions. Last summer, I graduated with a Master's in [Intelligent Field Robotic Systems (IFRoS)](https://ifrosmaster.org/) from the Erasmus Mundus program. My academic journey culminated in a master's thesis also at [LARICS](https://larics.fer.hr/), where I focused on connectivity maintenance of ad-hoc UAV networks for multi-robot missions.
 
 I hold an undergraduate degree in Electrical Engineering, with a focus on robotics and computer vision, from [Habib University](https://habib.edu.pk/) in 2022.
 
@@ -17,7 +17,7 @@ With a strong background in autonomous systems, multi-robot systems, and compute
 - **Muli-robot Systems:** decentralized control, connectivity maintainance control
 
 ## News
-- **[Feb. 2025]** Started working as a researcher at the [Laboratory for Robotics and Intelligent Control Systems](https://larics.fer.hr/), FER, at the University of Zagreb, focusing on multi-robot systems for search and rescue missions.
+- **[Feb. 2025]** Started working as a researcher at the [LARICS](https://larics.fer.hr/).
 - **[Jun. 2024]** Completed Master's in [Intelligent Field Robotic Systems (IFRoS)](https://ifrosmaster.org/)
 - **[March. 2024]** Began graduate thesis at [LARICS](https://larics.fer.hr/) at the University of Zagreb, focusing on connectivity maintenance of ad-hoc UAV networks for multi-robot missions.
 - **[Oct. 2023]** Joined the University of Zagreb for the third semester of EMJD [IFRoS Masters]((https://ifrosmaster.org/)), specializing in aerial robotics and multi-robot systems.
