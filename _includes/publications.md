@@ -9,13 +9,13 @@
     <img src="assets/paper_imgs/p4.png" class="teaser img-fluid z-depth-1">
   </div>
   <div class="col-sm-9" style="position: relative;width: 100%;padding-right: 15px;padding-left: 20px;">
-    <div class="title">Decentralized Battery-Aware Connectivity Maintenance for Multi-UAV Missions [Under Review @ IEEE Access]</div>
+    <div class="title">Decentralized Battery-Aware Connectivity Maintenance for Multi-UAV Missions</div>
     <div class="author"><strong>Khawaja G. Alamdar</strong>, Tamara Petrovic.</div>
-    <!-- <div class="periodical"><em>IEEE International Conference on Robotics and Biomimetics (ROBIO), 2022.</em></div> -->
-    <!-- <div class="links">
-      <a href="https://ieeexplore.ieee.org/document/10011693" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
-      <a href="https://www.youtube.com/watch?v=EyEW8sv9_-g" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
-    </div> -->
+    <div class="periodical"><em>IEEE Access, vol. 13, pp. 83738-83751, 2025.</em></div>
+    <div class="links">
+      <a href="https://ieeexplore.ieee.org/document/11000322" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">PAPER</a>
+      <a href="https://youtu.be/tqGPNUnDRPA?si=s8bMwylB_hNAyk-t" class="btn btn-sm z-depth-0" role="button" target="_blank" style="font-size:12px;">Video</a>
+    </div>
   </div>
 </div>
 </li>
