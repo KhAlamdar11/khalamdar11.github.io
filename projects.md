@@ -18,7 +18,7 @@ permalink: /projects/
      PROJECT TEMPLATE - Copy this block to add new projects:
 
      <article class="card">
-       <img src="assets/project_imgs/YOUR_IMAGE.gif" alt="Project thumbnail" class="card-image">
+       <img src="/assets/project_imgs/YOUR_IMAGE.gif" alt="Project thumbnail" class="card-image">
        <div class="card-content">
          <h3 class="card-title">Project Title</h3>
          <p class="card-meta">Institution/Context (Year)</p>
@@ -33,7 +33,7 @@ permalink: /projects/
      =========================================== -->
 
     <article class="card">
-      <img src="assets/project_imgs/explore.gif" alt="Connectivity Maintenance" class="card-image">
+      <img src="/assets/project_imgs/explore.gif" alt="Connectivity Maintenance" class="card-image">
       <div class="card-content">
         <h3 class="card-title">Connectivity Maintenance in Ad-hoc UAV Networks for Multi-robot Missions</h3>
         <p class="card-meta">Master's Thesis - University of Zagreb (2024)</p>
@@ -45,7 +45,7 @@ permalink: /projects/
     </article>
 
     <article class="card">
-      <img src="assets/project_imgs/reynolds.gif" alt="Flocking and Formation Control" class="card-image">
+      <img src="/assets/project_imgs/reynolds.gif" alt="Flocking and Formation Control" class="card-image">
       <div class="card-content">
         <h3 class="card-title">Flocking, Rendezvous and Formation Control of Multi Agent Systems</h3>
         <p class="card-meta">University of Zagreb (2023)</p>
@@ -58,7 +58,7 @@ permalink: /projects/
     </article>
 
     <article class="card">
-      <img src="assets/project_imgs/nak.gif" alt="Autonomous Pick and Place" class="card-image">
+      <img src="/assets/project_imgs/nak.gif" alt="Autonomous Pick and Place" class="card-image">
       <div class="card-content">
         <h3 class="card-title">Autonomous Pick and Place using TurtleBot</h3>
         <p class="card-meta">Universitat de Girona (2023)</p>
@@ -70,7 +70,7 @@ permalink: /projects/
     </article>
 
     <article class="card">
-      <img src="assets/project_imgs/capstone1.gif" alt="Disaster Management UAVs" class="card-image">
+      <img src="/assets/project_imgs/capstone1.gif" alt="Disaster Management UAVs" class="card-image">
       <div class="card-content">
         <h3 class="card-title">Autonomous Mapping and Human Localization for Indoor Disaster Management UAVs</h3>
         <p class="card-meta">Bachelor's Thesis - Habib University (2022)</p>
@@ -83,7 +83,7 @@ permalink: /projects/
     </article>
 
     <article class="card">
-      <img src="assets/project_imgs/minidrone.png" alt="Mathworks Minidrone" class="card-image">
+      <img src="/assets/project_imgs/minidrone.png" alt="Mathworks Minidrone" class="card-image">
       <div class="card-content">
         <h3 class="card-title">Mathworks Minidrone Competition (EMEA '21)</h3>
         <p class="card-meta">Mathworks Competition (2021)</p>
@@ -96,7 +96,7 @@ permalink: /projects/
     </article>
 
     <article class="card">
-      <img src="assets/project_imgs/wheel-e.jpeg" alt="WHEEL-E Robot" class="card-image">
+      <img src="/assets/project_imgs/wheel-e.jpeg" alt="WHEEL-E Robot" class="card-image">
       <div class="card-content">
         <h3 class="card-title">WHEEL-E: A Self-Balancing Robot</h3>
         <p class="card-meta">Habib University (2020)</p>
@@ -109,7 +109,7 @@ permalink: /projects/
     </article>
 
     <article class="card">
-      <img src="assets/project_imgs/mariana.png" alt="Mariana Trench Fishing" class="card-image">
+      <img src="/assets/project_imgs/mariana.png" alt="Mariana Trench Fishing" class="card-image">
       <div class="card-content">
         <h3 class="card-title">Mariana Trench Fishing</h3>
         <p class="card-meta">Habib University (2020)</p>

@@ -18,7 +18,7 @@ permalink: /publications/
      PUBLICATION TEMPLATE - Copy this block to add new publications:
 
      <article class="card">
-       <img src="assets/paper_imgs/YOUR_IMAGE.png" alt="Paper thumbnail" class="card-image">
+       <img src="/assets/paper_imgs/YOUR_IMAGE.png" alt="Paper thumbnail" class="card-image">
        <div class="card-content">
          <h3 class="card-title">Paper Title</h3>
          <p class="card-authors"><strong>Your Name</strong>, Co-author 1, Co-author 2.</p>
@@ -33,7 +33,7 @@ permalink: /publications/
      =========================================== -->
 
     <article class="card">
-      <img src="assets/paper_imgs/p4.png" alt="Decentralized Battery-Aware Connectivity" class="card-image">
+      <img src="/assets/paper_imgs/p4.png" alt="Decentralized Battery-Aware Connectivity" class="card-image">
       <div class="card-content">
         <h3 class="card-title">Decentralized Battery-Aware Connectivity Maintenance for Multi-UAV Missions</h3>
         <p class="card-authors"><strong>Khawaja G. Alamdar</strong>, Tamara Petrovic.</p>
@@ -46,7 +46,7 @@ permalink: /publications/
     </article>
 
     <article class="card">
-      <img src="assets/paper_imgs/p3.png" alt="Frontier Exploration" class="card-image">
+      <img src="/assets/paper_imgs/p3.png" alt="Frontier Exploration" class="card-image">
       <div class="card-content">
         <h3 class="card-title">Frontier Exploration for Disaster Management UAVs</h3>
         <p class="card-authors"><strong>Khawaja G. Alamdar</strong>, Mehdi R. Khorasani, S.M. Ali Rizvi, Rameen M. Ahmed, Junaid A. Memon.</p>
@@ -59,7 +59,7 @@ permalink: /publications/
     </article>
 
     <article class="card">
-      <img src="assets/paper_imgs/p2.png" alt="Human Detection and Localization" class="card-image">
+      <img src="/assets/paper_imgs/p2.png" alt="Human Detection and Localization" class="card-image">
       <div class="card-content">
         <h3 class="card-title">Human Detection and Localization in Indoor Disaster Environments Using UAVs</h3>
         <p class="card-authors">S.M. Ali Rizvi, Rameen M. Ahmed, <strong>Khawaja G. Alamdar</strong>, Mehdi R. Khorasani, Junaid A. Memon.</p>
@@ -72,7 +72,7 @@ permalink: /publications/
     </article>
 
     <article class="card">
-      <img src="assets/paper_imgs/self-driving.gif" alt="Self-driving Steering" class="card-image">
+      <img src="/assets/paper_imgs/self-driving.gif" alt="Self-driving Steering" class="card-image">
       <div class="card-content">
         <h3 class="card-title">Mitigating the Zero Biased Steering Angles in Self-driving Simulator Datasets</h3>
         <p class="card-authors">M. Ammar Khan, <strong>Khawaja G. Alamdar</strong>, Aiman Junaid, Muhammad Farhan.</p>
