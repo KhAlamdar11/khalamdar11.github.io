@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{{ page.title | default: site.title }}</title>
+  <meta name="description" content="{{ site.description }}">
+  <meta name="keywords" content="{{ site.keywords }}">
+  <link rel="canonical" href="{{ site.canonical }}">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="{{ site.favicon | relative_url }}">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Source+Sans+Pro:wght@300;400;600&display=swap" rel="stylesheet">
+
+  <!-- Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="nav-container">
+      <a href="{{ '/' | relative_url }}" class="nav-logo">{{ site.title }}</a>
+      <button class="nav-toggle" aria-label="Toggle navigation">
+        <span class="hamburger"></span>
+      </button>
+      <ul class="nav-menu">
+        <li class="nav-item">
+          <a href="{{ '/' | relative_url }}" class="nav-link {% if page.url == '/' %}active{% endif %}">Home</a>
+        </li>
+        <li class="nav-item">
+          <a href="{{ '/publications' | relative_url }}" class="nav-link {% if page.url contains 'publications' %}active{% endif %}">Publications</a>
+        </li>
+        <li class="nav-item">
+          <a href="{{ '/projects' | relative_url }}" class="nav-link {% if page.url contains 'projects' %}active{% endif %}">Projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="{{ site.cv_link | relative_url }}" class="nav-link" target="_blank">CV</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    {{ content }}
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-social">
+        {% if site.google_scholar %}
+        <a href="{{ site.google_scholar }}" target="_blank" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+        {% endif %}
+        {% if site.github_link %}
+        <a href="{{ site.github_link }}" target="_blank" title="GitHub"><i class="fab fa-github"></i></a>
+        {% endif %}
+        {% if site.linkedin %}
+        <a href="{{ site.linkedin }}" target="_blank" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+        {% endif %}
+        {% if site.email %}
+        <a href="mailto:{{ site.email }}" title="Email"><i class="fas fa-envelope"></i></a>
+        {% endif %}
+      </div>
+      <p class="footer-text">&copy; {{ 'now' | date: "%Y" }} {{ site.title }}. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script>
+    // Mobile nav toggle
+    const navToggle = document.querySelector('.nav-toggle');
+    const navMenu = document.querySelector('.nav-menu');
+
+    navToggle.addEventListener('click', () => {
+      navMenu.classList.toggle('active');
+      navToggle.classList.toggle('active');
+    });
+
+    // Close menu when clicking a link
+    document.querySelectorAll('.nav-link').forEach(link => {
+      link.addEventListener('click', () => {
+        navMenu.classList.remove('active');
+        navToggle.classList.remove('active');
+      });
+    });
+  </script>
+</body>
+</html>
