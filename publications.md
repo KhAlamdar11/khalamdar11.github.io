@@ -33,6 +33,19 @@ permalink: /publications/
      =========================================== -->
 
     <article class="card">
+      <img src="/assets/paper_imgs/p5.png" alt="Perch-Aware Decentralized Control" class="card-image">
+      <div class="card-content">
+        <h3 class="card-title">Perch-Aware Decentralized Control for Extending the Lifetime of UAV Communication Networks</h3>
+        <p class="card-authors"><strong>Khawaja G. Alamdar</strong>, Marijana Peti, Frano Petric, Matko Orsag.</p>
+        <p class="card-venue">2025 IEEE International Symposium on Multi-Robot and Multi-Agent Systems (MRS), Singapore.</p>
+        <div class="card-links">
+          <a href="https://ieeexplore.ieee.org/document/11357270" class="btn btn-primary" target="_blank"><i class="fas fa-file-pdf"></i> Paper</a>
+          <a href="https://www.youtube.com/watch?v=u8JEi_p27BQ" class="btn btn-secondary" target="_blank"><i class="fas fa-video"></i> Video</a>
+        </div>
+      </div>
+    </article>
+
+    <article class="card">
       <img src="/assets/paper_imgs/p4.png" alt="Decentralized Battery-Aware Connectivity" class="card-image">
       <div class="card-content">
         <h3 class="card-title">Decentralized Battery-Aware Connectivity Maintenance for Multi-UAV Missions</h3>
