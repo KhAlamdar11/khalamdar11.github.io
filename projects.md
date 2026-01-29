@@ -40,6 +40,7 @@ permalink: /projects/
         <p class="card-description">Modified a classic connectivity controller to include battery awareness and fault tolerance for a swarm of UAVs. Analyzed the feasibility of Graph Neural Networks (GNNs) for imitation learning. Demonstrated a full fleet management system using Bitcraze Crazyflie UAVs.</p>
         <div class="card-links">
           <a href="https://drive.google.com/file/d/1AOIqtehMHJ_R36bMlAusND14YsxL6YSP/view?usp=sharing" class="btn btn-primary" target="_blank"><i class="fas fa-book"></i> Thesis</a>
+          <a href="https://github.com/KhAlamdar11/hmr_sim" class="btn btn-secondary" target="_blank"><i class="fab fa-github"></i> Code</a>
         </div>
       </div>
     </article>

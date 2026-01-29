@@ -41,6 +41,7 @@ permalink: /publications/
         <div class="card-links">
           <a href="https://ieeexplore.ieee.org/document/11357270" class="btn btn-primary" target="_blank"><i class="fas fa-file-pdf"></i> Paper</a>
           <a href="https://www.youtube.com/watch?v=u8JEi_p27BQ" class="btn btn-secondary" target="_blank"><i class="fas fa-video"></i> Video</a>
+          <a href="https://github.com/larics/mrs_connectivity_perch" class="btn btn-secondary" target="_blank"><i class="fab fa-github"></i> Code</a>
         </div>
       </div>
     </article>
@@ -54,6 +55,7 @@ permalink: /publications/
         <div class="card-links">
           <a href="https://ieeexplore.ieee.org/document/11000322" class="btn btn-primary" target="_blank"><i class="fas fa-file-pdf"></i> Paper</a>
           <a href="https://youtu.be/tqGPNUnDRPA?si=s8bMwylB_hNAyk-t" class="btn btn-secondary" target="_blank"><i class="fas fa-video"></i> Video</a>
+          <a href="https://github.com/KhAlamdar11/hmr_sim" class="btn btn-secondary" target="_blank"><i class="fab fa-github"></i> Code</a>
         </div>
       </div>
     </article>
