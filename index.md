@@ -94,39 +94,30 @@ title: Home
     <!-- Experience Section -->
     <div class="content-section">
       <h2 class="section-title">Experience</h2>
-      <div class="timeline">
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3 class="timeline-title">Researcher</h3>
-              <span class="timeline-date">Feb 2025 - Present</span>
-            </div>
-            <p class="timeline-org"><a href="https://larics.fer.hr/" target="_blank">LARICS</a>, University of Zagreb</p>
-            <p class="timeline-desc">Research on multi-robot systems for search and rescue missions, focusing on connectivity maintenance and decentralized control for UAV swarms.</p>
+      <div class="exp-edu-list">
+        <div class="exp-edu-card">
+          <div class="exp-edu-header">
+            <h3 class="exp-edu-title">Researcher</h3>
+            <span class="exp-edu-date">Feb 2025 - Present</span>
           </div>
+          <p class="exp-edu-org"><a href="https://larics.fer.hr/" target="_blank">LARICS</a>, University of Zagreb</p>
+          <p class="exp-edu-desc">Research on multi-robot systems for search and rescue missions, focusing on connectivity maintenance and decentralized control for UAV swarms.</p>
         </div>
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3 class="timeline-title">Computer Vision Intern</h3>
-              <span class="timeline-date">Jun 2023 - Aug 2023</span>
-            </div>
-            <p class="timeline-org"><a href="https://vicorob.udg.edu/" target="_blank">ViCOROB</a>, Universitat de Girona</p>
-            <p class="timeline-desc">Improved weakly-supervised semantic segmentation for side scan sonar images. Created GUI tools for visualization and inspection of SSS transects.</p>
+        <div class="exp-edu-card">
+          <div class="exp-edu-header">
+            <h3 class="exp-edu-title">Computer Vision Intern</h3>
+            <span class="exp-edu-date">Jun - Aug 2023</span>
           </div>
+          <p class="exp-edu-org"><a href="https://vicorob.udg.edu/" target="_blank">ViCOROB</a>, Universitat de Girona</p>
+          <p class="exp-edu-desc">Improved weakly-supervised semantic segmentation for side scan sonar images. Created GUI tools for visualization and inspection of SSS transects.</p>
         </div>
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3 class="timeline-title">Teaching Assistant</h3>
-              <span class="timeline-date">Fall 2019, Fall 2021</span>
-            </div>
-            <p class="timeline-org"><a href="https://habib.edu.pk/" target="_blank">Habib University</a></p>
-            <p class="timeline-desc">TA for Programming Fundamentals & Feedback Control courses. Created assignment manuals, delivered supplementary sessions, and instructed students in labs.</p>
+        <div class="exp-edu-card">
+          <div class="exp-edu-header">
+            <h3 class="exp-edu-title">Teaching Assistant</h3>
+            <span class="exp-edu-date">Fall '19, Fall '21</span>
           </div>
+          <p class="exp-edu-org"><a href="https://habib.edu.pk/" target="_blank">Habib University</a></p>
+          <p class="exp-edu-desc">TA for Programming Fundamentals & Feedback Control. Created assignment manuals, delivered sessions, and instructed students in labs.</p>
         </div>
       </div>
     </div>
@@ -134,28 +125,22 @@ title: Home
     <!-- Education Section -->
     <div class="content-section">
       <h2 class="section-title">Education</h2>
-      <div class="timeline">
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3 class="timeline-title">MSc Intelligent Field Robotic Systems</h3>
-              <span class="timeline-date">Sep 2022 - Jun 2024</span>
-            </div>
-            <p class="timeline-org"><a href="https://ifrosmaster.org/" target="_blank">Erasmus Mundus Joint Master</a></p>
-            <p class="timeline-desc">Universitat de Girona (Spain), University of Zagreb (Croatia), Eötvös Loránd University (Hungary). Specialization in aerial vehicles and multi-robot systems. Thesis grade: 9.3/10.</p>
+      <div class="exp-edu-list">
+        <div class="exp-edu-card">
+          <div class="exp-edu-header">
+            <h3 class="exp-edu-title">MSc Intelligent Field Robotic Systems</h3>
+            <span class="exp-edu-date">2022 - 2024</span>
           </div>
+          <p class="exp-edu-org"><a href="https://ifrosmaster.org/" target="_blank">Erasmus Mundus Joint Master</a></p>
+          <p class="exp-edu-desc">Universitat de Girona, University of Zagreb, Eötvös Loránd University. Specialization in aerial vehicles and multi-robot systems. Thesis grade: 9.3/10.</p>
         </div>
-        <div class="timeline-item">
-          <div class="timeline-marker"></div>
-          <div class="timeline-content">
-            <div class="timeline-header">
-              <h3 class="timeline-title">BSc Electrical Engineering</h3>
-              <span class="timeline-date">Aug 2018 - Jun 2022</span>
-            </div>
-            <p class="timeline-org"><a href="https://habib.edu.pk/" target="_blank">Habib University</a>, Pakistan</p>
-            <p class="timeline-desc">Focus on robotics and computer vision. GPA: 3.86/4.00. Dean's Medal for highest academic achievement. Best Undergraduate Thesis Award.</p>
+        <div class="exp-edu-card">
+          <div class="exp-edu-header">
+            <h3 class="exp-edu-title">BSc Electrical Engineering</h3>
+            <span class="exp-edu-date">2018 - 2022</span>
           </div>
+          <p class="exp-edu-org"><a href="https://habib.edu.pk/" target="_blank">Habib University</a>, Pakistan</p>
+          <p class="exp-edu-desc">Focus on robotics and computer vision. GPA: 3.86/4.00. Dean's Medal for highest academic achievement. Best Undergraduate Thesis Award.</p>
         </div>
       </div>
     </div>
