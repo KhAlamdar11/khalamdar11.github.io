@@ -1,17 +1,16 @@
 # Basic Information
 title: Khawaja Ghulam Alamdar
-position: Researcher
+position: Researcher · Multi-Robot Systems
 affiliation: Laboratory for Robotics and Intelligent Control Systems (LARICS)
 email: khawaja.alamdar11@gmail.com
 
 # Search Engine Optimization (SEO)
-keywords: robotics, multi-robot systems, multi-agent systems, autonomous systems, mobile robotics
-description: This is the homepage of Khawaja G. Alamdar
+keywords: robotics, multi-robot systems, multi-agent systems, autonomous systems, mobile robotics, UAV swarms, connectivity maintenance
+description: Khawaja G. Alamdar — researcher in multi-robot systems at LARICS, University of Zagreb. UAV swarms, decentralized control, and connectivity maintenance.
 canonical: https://khalamdar11.github.io/
 
 # Links
 google_scholar: https://scholar.google.com/citations?user=zwRA42cAAAAJ&hl=en
-cv_link: assets/files/CV_imrcl_15Aug.pdf
 github_link: https://github.com/KhAlamdar11
 linkedin: https://www.linkedin.com/in/khalamdar/
 
@@ -29,10 +28,6 @@ exclude:
   - Gemfile
   - Gemfile.lock
   - README.md
-  - README_zh_Hans.md
-  - README_zh_Hant.md
-  - README_de.md
   - LICENSE
-  - minimal-light.gemspec
-  - _includes/publications.md
-  - _includes/projects.md
+  - vendor
+  - .bundle
