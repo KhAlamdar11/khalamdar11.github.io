@@ -13,6 +13,7 @@ import { createLoop } from './engine/loop.js';
 import { createGrid } from './engine/grid.js';
 import { mulberry32, randomSeed } from './engine/rng.js';
 import { slider, button, stat } from './engine/ui.js';
+import { steer, edgeAvoid, clampSpeed } from './engine/steering.js';
 
 // ---------- tuning ------------------------------------------------
 
@@ -160,31 +161,6 @@ function seedPlankton() {
 
 // ---------- simulation --------------------------------------------
 
-// steer toward a desired direction at a desired speed, force-limited
-function steer(a, dx, dy, speed, force, w) {
-  const d = Math.hypot(dx, dy);
-  if (d < 1e-6) return;
-  let sx = (dx / d) * speed - a.vx;
-  let sy = (dy / d) * speed - a.vy;
-  const m = Math.hypot(sx, sy);
-  if (m > force) { sx = (sx / m) * force; sy = (sy / m) * force; }
-  a.ax += sx * w;
-  a.ay += sy * w;
-}
-
-function edgeForce(a, force, w) {
-  if (a.x < EDGE) a.ax += ((EDGE - a.x) / EDGE) * force * w;
-  if (a.x > stage.w - EDGE) a.ax -= ((a.x - (stage.w - EDGE)) / EDGE) * force * w;
-  if (a.y < EDGE) a.ay += ((EDGE - a.y) / EDGE) * force * w;
-  if (a.y > stage.h - EDGE) a.ay -= ((a.y - (stage.h - EDGE)) / EDGE) * force * w;
-}
-
-function clampSpeed(a, vMin, vMax) {
-  const sp = Math.hypot(a.vx, a.vy);
-  if (sp > vMax) { a.vx = (a.vx / sp) * vMax; a.vy = (a.vy / sp) * vMax; }
-  else if (sp < vMin && sp > 1e-6) { a.vx = (a.vx / sp) * vMin; a.vy = (a.vy / sp) * vMin; }
-}
-
 function step(dt) {
   time += dt;
   grid.rebuild(fish);
@@ -236,7 +212,7 @@ function step(dt) {
       steer(f, mdx, mdy, FISH.vMax, FISH.force, FISH.wCursor * (1 - d / FISH.cursorR));
     }
 
-    edgeForce(f, FISH.force, FISH.wEdge);
+    edgeAvoid(f, stage.w, stage.h, EDGE, FISH.force, FISH.wEdge);
 
     f.vx += f.ax * dt;
     f.vy += f.ay * dt;
@@ -305,7 +281,7 @@ function step(dt) {
       }
     }
 
-    edgeForce(p, PRED.force, 1.5);
+    edgeAvoid(p, stage.w, stage.h, EDGE, PRED.force, 1.5);
 
     p.vx += p.ax * dt;
     p.vy += p.ay * dt;
