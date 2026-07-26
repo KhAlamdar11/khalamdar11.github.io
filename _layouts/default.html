@@ -27,8 +27,10 @@
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
 </head>
 <body>
+  {% unless page.swarm == false %}
   <!-- live multi-agent system. it maintains its own connectivity. -->
   <canvas id="swarm-canvas" aria-hidden="true"></canvas>
+  {% endunless %}
 
   <!-- Navigation -->
   <nav class="navbar">
@@ -48,6 +50,9 @@
         </li>
         <li class="nav-item">
           <a href="{{ '/projects/' | relative_url }}" class="nav-link {% if page.url contains 'projects' %}active{% endif %}"><span class="nav-num">02.</span>projects</a>
+        </li>
+        <li class="nav-item">
+          <a href="{{ '/games/' | relative_url }}" class="nav-link {% if page.url contains 'games' %}active{% endif %}"><span class="nav-num">03.</span>games</a>
         </li>
       </ul>
     </div>
@@ -76,11 +81,17 @@
         {% endif %}
       </div>
       <p class="footer-text">&copy; {{ 'now' | date: "%Y" }} {{ site.title }} &middot; Zagreb, HR</p>
+      {% unless page.swarm == false %}
       <p class="footer-note">// the dots in the background are autonomous agents maintaining network connectivity.<br>// like my UAVs, occasionally one wanders off. it always finds its way back.</p>
+      {% else %}
+      <p class="footer-note">// the background swarm is off duty on this page.<br>// every cycle belongs to the agents in the tank.</p>
+      {% endunless %}
     </div>
   </footer>
 
+  {% unless page.swarm == false %}
   <script src="{{ '/assets/js/swarm.js' | relative_url }}"></script>
+  {% endunless %}
   <script>
     // Mobile nav toggle
     const navToggle = document.querySelector('.nav-toggle');

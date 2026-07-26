@@ -23,6 +23,24 @@ favicon_dark: ./assets/img/favicon-dark.png
 markdown: kramdown
 permalink: pretty
 
+# Collections
+# Each game is one file in _games/ — its front matter feeds the card on
+# /games/, its body becomes the write-up under the canvas.
+collections:
+  games:
+    output: true
+    permalink: /games/:name/
+
+# Every game page gets the game layout and runs without the
+# background swarm — the game owns all the agents on its page.
+defaults:
+  - scope:
+      path: ""
+      type: games
+    values:
+      layout: game
+      swarm: false
+
 # Exclude from build
 exclude:
   - Gemfile

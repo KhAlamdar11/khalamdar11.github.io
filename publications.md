@@ -20,7 +20,7 @@ permalink: /publications/
 
      <article class="pub-card reveal">
        <div class="pub-media">
-         <span class="pub-index">[06]</span>
+         <span class="pub-index">[08]</span>
          <img src="/assets/paper_imgs/YOUR_IMAGE.png" alt="Paper thumbnail">
        </div>
        <div class="pub-body">
@@ -35,6 +35,36 @@ permalink: /publications/
        </div>
      </article>
      =========================================== -->
+
+  <article class="pub-card reveal">
+    <div class="pub-media">
+      <span class="pub-index">[07]</span>
+      <img src="/assets/paper_imgs/llm.png" alt="LLM-Enabled Human-in-the-Loop Control">
+    </div>
+    <div class="pub-body">
+      <p class="pub-venue"><span class="pub-badge">ICUAS '26</span> Int. Conference on Unmanned Aircraft Systems, Corfu, Greece, pp. 1339–1346</p>
+      <h3 class="pub-title">LLM-Enabled Human-in-the-Loop Control of Multi-UAV Teams under Communication Constraints</h3>
+      <p class="pub-authors"><strong>Khawaja G. Alamdar</strong>, Frano Petric, Matko Orsag.</p>
+      <div class="pub-links">
+        <a href="https://ieeexplore.ieee.org/document/11598591" class="btn btn-sm btn-primary" target="_blank"><i class="fas fa-file-pdf"></i> paper</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="pub-card reveal">
+    <div class="pub-media">
+      <span class="pub-index">[06]</span>
+      <img src="/assets/paper_imgs/icuas_comp.jpg" alt="Crazyflie Sim2Real Multi-Robot Benchmarking">
+    </div>
+    <div class="pub-body">
+      <p class="pub-venue"><span class="pub-badge">ICUAS '26</span> Int. Conference on Unmanned Aircraft Systems, Corfu, Greece, pp. 704–711</p>
+      <h3 class="pub-title">Benchmarking Connectivity and Energy-Aware Algorithms Using Crazyflie UAVs: A Sim2Real Multi-Robot Framework</h3>
+      <p class="pub-authors">Marijana Peti, <strong>Khawaja G. Alamdar</strong>, Marko Kozlik, Antun Ivanovic, Frano Petric, Matko Orsag, Stjepan Bogdan.</p>
+      <div class="pub-links">
+        <a href="https://ieeexplore.ieee.org/document/11598653" class="btn btn-sm btn-primary" target="_blank"><i class="fas fa-file-pdf"></i> paper</a>
+      </div>
+    </div>
+  </article>
 
   <article class="pub-card awarded reveal">
     <div class="pub-media">
@@ -131,18 +161,6 @@ permalink: /publications/
     <h2 class="accepted-title">accepted_queue</h2>
   </div>
   <p class="accepted-sub">// accepted &middot; awaiting publication</p>
-
-  <div class="acc-item">
-    <p class="acc-venue"><span class="acc-badge">ICUAS '26</span></p>
-    <h3 class="acc-name">LLM-Enabled Human-in-the-Loop Control of Multi-UAV Teams under Communication Constraints</h3>
-    <p class="acc-authors"><strong>Khawaja G. Alamdar</strong>, Frano Petric, Matko Orsag.</p>
-  </div>
-
-  <div class="acc-item">
-    <p class="acc-venue"><span class="acc-badge">ICUAS '26</span></p>
-    <h3 class="acc-name">Benchmarking Connectivity and Energy-Aware Algorithms Using Crazyflie UAVs: A Sim2Real Multi-Robot Framework</h3>
-    <p class="acc-authors">Marijana Peti, <strong>Khawaja G. Alamdar</strong>, Marko Kozlik, Antun Ivanovic, Frano Petric, Matko Orsag, Stjepan Bogdan.</p>
-  </div>
 
   <div class="acc-item">
     <p class="acc-venue"><span class="acc-badge">RO-MAN '26</span></p>

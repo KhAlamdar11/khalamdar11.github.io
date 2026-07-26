@@ -1251,6 +1251,319 @@ html.js .reveal.delay-3 { transition-delay: 0.24s; }
 }
 
 /* ------------------------------------------------------------
+   Games — index grid
+   ------------------------------------------------------------ */
+.game-grid {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 2rem 2rem 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.6rem;
+}
+
+.game-card {
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+  background: var(--bg-elev);
+  backdrop-filter: blur(8px);
+  overflow: hidden;
+  transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition);
+}
+
+.game-card:hover {
+  border-color: var(--line-strong);
+  transform: translateY(-5px);
+  box-shadow: 0 18px 50px rgba(0, 0, 0, 0.45);
+}
+
+.game-link {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  color: inherit;
+}
+
+.game-media {
+  position: relative;
+  aspect-ratio: 16 / 10;
+  background: var(--bg-deep);
+  overflow: hidden;
+}
+
+.game-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: saturate(0.75);
+  transition: filter 0.4s ease, transform 0.4s ease;
+}
+
+.game-card:hover .game-media img {
+  filter: saturate(1.05);
+  transform: scale(1.04);
+}
+
+/* fallback tile for a game with no thumbnail yet */
+.game-glyph {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  background:
+    radial-gradient(circle at 50% 50%, var(--accent-glow), transparent 68%),
+    repeating-linear-gradient(90deg, var(--line) 0 1px, transparent 1px 28px),
+    repeating-linear-gradient(0deg, var(--line) 0 1px, transparent 1px 28px);
+}
+
+.game-glyph span {
+  font-size: 1.9rem;
+  color: var(--accent);
+  opacity: 0.85;
+}
+
+.game-status {
+  position: absolute;
+  top: 0.7rem;
+  right: 0.7rem;
+  font-family: var(--font-mono);
+  font-size: 0.63rem;
+  letter-spacing: 0.06em;
+  text-transform: lowercase;
+  padding: 0.24rem 0.55rem;
+  border-radius: 999px;
+  border: 1px solid var(--line-strong);
+  background: rgba(7, 9, 15, 0.78);
+  color: var(--accent);
+}
+
+.game-status.is-wip {
+  border-color: rgba(251, 191, 36, 0.4);
+  color: var(--amber);
+}
+
+.game-body {
+  padding: 1.3rem 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  flex: 1;
+}
+
+.game-meta {
+  font-family: var(--font-mono);
+  font-size: 0.7rem;
+  color: var(--amber);
+}
+
+.game-name {
+  font-family: var(--font-display);
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.35;
+}
+
+.game-desc {
+  font-size: 0.89rem;
+  color: var(--text-dim);
+}
+
+.game-cta {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: var(--accent);
+  margin-top: auto;
+  padding-top: 0.9rem;
+}
+
+.game-cta i {
+  font-size: 0.68rem;
+  transition: transform var(--transition);
+  display: inline-block;
+}
+
+.game-card:hover .game-cta i { transform: translateX(4px); }
+
+/* empty state — the shelf is bare, and says so */
+.game-empty {
+  grid-column: 1 / -1;
+  border: 1px dashed var(--line-strong);
+  border-radius: var(--radius-lg);
+  background: var(--bg-elev);
+  backdrop-filter: blur(8px);
+  padding: 2.4rem 2rem;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  line-height: 1.9;
+}
+
+.game-empty .prompt { color: var(--text-faint); }
+.game-empty .empty-out { color: var(--text-dim); }
+
+.empty-caret {
+  display: inline-block;
+  width: 0.55em;
+  height: 1.05em;
+  background: var(--accent);
+  vertical-align: text-bottom;
+  animation: blink 1.1s step-end infinite;
+}
+
+@keyframes blink { 50% { opacity: 0; } }
+
+.game-empty .empty-note {
+  color: var(--text-faint);
+  font-size: 0.74rem;
+  line-height: 1.8;
+  margin-top: 1.2rem;
+}
+
+/* ------------------------------------------------------------
+   Games — individual game page
+   ------------------------------------------------------------ */
+.game-header .crumb { color: var(--accent); }
+.game-header .crumb:hover { color: var(--accent-strong); }
+
+.game-tech {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 1.1rem;
+}
+
+.game-tech li {
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  color: var(--text-dim);
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.24rem 0.7rem;
+}
+
+.game-wrap {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1.6rem 2rem 5rem;
+}
+
+.game-stage {
+  position: relative;
+  aspect-ratio: 16 / 9;
+  border: 1px solid var(--line-strong);
+  border-radius: var(--radius-lg);
+  background: var(--bg-deep);
+  overflow: hidden;
+}
+
+.game-stage canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  touch-action: none;
+  cursor: crosshair;
+}
+
+/* live readouts — the game fills this in */
+.game-hud {
+  position: absolute;
+  top: 0.9rem;
+  left: 0.9rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  color: var(--text-dim);
+  pointer-events: none;
+}
+
+.game-hud .hud-stat {
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: rgba(7, 9, 15, 0.72);
+  padding: 0.3rem 0.6rem;
+}
+
+.game-hud .hud-stat b {
+  color: var(--accent);
+  font-weight: 500;
+}
+
+.game-noscript {
+  display: grid;
+  place-items: center;
+  height: 100%;
+  padding: 2rem;
+  text-align: center;
+  color: var(--text-dim);
+}
+
+.game-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.8rem;
+  margin-top: 1.1rem;
+}
+
+.game-controls {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.9rem;
+}
+
+/* sliders + readouts injected by engine/ui.js */
+.ctrl {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+}
+
+.ctrl-label { color: var(--text-faint); }
+
+.ctrl input[type="range"] {
+  width: 120px;
+  accent-color: var(--accent-strong);
+}
+
+.ctrl-value {
+  color: var(--accent);
+  min-width: 3ch;
+  text-align: right;
+}
+
+.game-notes {
+  max-width: 720px;
+  margin-top: 3rem;
+  color: var(--text-dim);
+}
+
+.game-notes h2,
+.game-notes h3 {
+  font-family: var(--font-display);
+  color: var(--text);
+  margin: 2rem 0 0.7rem;
+}
+
+.game-notes h2 { font-size: 1.3rem; }
+.game-notes h3 { font-size: 1.08rem; }
+.game-notes p { margin-bottom: 1rem; }
+.game-notes ul { margin: 0 0 1rem 1.1rem; }
+.game-notes li { margin-bottom: 0.4rem; }
+
+.game-notes code {
+  font-family: var(--font-mono);
+  font-size: 0.85em;
+  color: var(--accent);
+  background: rgba(125, 226, 209, 0.08);
+  border-radius: 4px;
+  padding: 0.1rem 0.35rem;
+}
+
+/* ------------------------------------------------------------
    Footer
    ------------------------------------------------------------ */
 .footer {
@@ -1328,6 +1641,8 @@ html.js .reveal.delay-3 { transition-delay: 0.24s; }
   .pub-media { aspect-ratio: 16 / 8; }
 
   .proj-grid { grid-template-columns: 1fr; }
+
+  .game-grid { grid-template-columns: repeat(2, 1fr); }
 }
 
 @media (max-width: 720px) {
@@ -1368,7 +1683,14 @@ html.js .reveal.delay-3 { transition-delay: 0.24s; }
 
   .page-header { padding: calc(var(--nav-height) + 3rem) 1.4rem 1rem; }
 
-  .pub-layout, .proj-grid { padding: 1.5rem 1.4rem 3.5rem; }
+  .pub-layout, .proj-grid, .game-grid { padding: 1.5rem 1.4rem 3.5rem; }
+
+  .game-grid { grid-template-columns: 1fr; }
+
+  .game-wrap { padding: 1.2rem 1.4rem 3.5rem; }
+
+  /* a 16:9 stage is unusable on a phone — go taller */
+  .game-stage { aspect-ratio: 4 / 5; }
 
   .interests-grid { grid-template-columns: 1fr; }
 
@@ -1386,5 +1708,5 @@ html.js .reveal.delay-3 { transition-delay: 0.24s; }
 
   .tl-node { left: -1.6rem; }
 
-  .pub-body, .proj-body { padding: 1.3rem 1.4rem 1.5rem; }
+  .pub-body, .proj-body, .game-body { padding: 1.3rem 1.4rem 1.5rem; }
 }

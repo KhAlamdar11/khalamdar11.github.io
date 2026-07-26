@@ -1,0 +1,52 @@
+---
+layout: default
+---
+
+<!-- Individual game page. The layout owns the chrome; the game module
+     owns #game-canvas. Contract for a game script:
+       #game-canvas    <canvas>  — size it from its parent's box
+       #game-hud       <div>     — overlay for live readouts (λ₂, battery, score)
+       #game-controls  <div>     — inject buttons/sliders here
+     Declare the module in front matter as `script: /assets/js/games/x.js`. -->
+
+<header class="page-header game-header">
+  <p class="page-eyebrow reveal">
+    <span class="prompt">$</span> <a href="{{ '/games/' | relative_url }}" class="crumb">cd ~/games</a>/{{ page.slug }}
+  </p>
+  <h1 class="page-title reveal delay-1">{{ page.name }}<span class="accent-dot">.</span></h1>
+  <p class="page-subtitle reveal delay-2">{{ page.tagline }}</p>
+  {% if page.tech %}
+  <ul class="game-tech reveal delay-3">
+    {% for t in page.tech %}<li>{{ t }}</li>{% endfor %}
+  </ul>
+  {% endif %}
+</header>
+
+<div class="game-wrap">
+
+  <div class="game-stage reveal" id="game-root">
+    <canvas id="game-canvas"></canvas>
+    <div class="game-hud" id="game-hud"></div>
+    <noscript>
+      <p class="game-noscript">This one needs JavaScript — it is a simulation, not a screenshot.</p>
+    </noscript>
+  </div>
+
+  <div class="game-bar reveal">
+    <div class="game-controls" id="game-controls"></div>
+    {% if page.source %}
+    <a href="{{ page.source }}" class="btn btn-sm" target="_blank"><i class="fab fa-github"></i> source</a>
+    {% endif %}
+  </div>
+
+  {% if content != '' %}
+  <div class="game-notes reveal">
+    {{ content }}
+  </div>
+  {% endif %}
+
+</div>
+
+{% if page.script %}
+<script type="module" src="{{ page.script | relative_url }}"></script>
+{% endif %}
