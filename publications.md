@@ -38,6 +38,21 @@ permalink: /publications/
 
   <article class="pub-card reveal">
     <div class="pub-media">
+      <span class="pub-index">[08]</span>
+      <img src="/assets/paper_imgs/roman.png" alt="Sparse Geometric Digital Twin for CBRNE Response">
+    </div>
+    <div class="pub-body">
+      <p class="pub-venue"><span class="pub-badge">RO-MAN '26</span> IEEE Int. Conference on Robot and Human Interactive Communication, Kitakyushu, Japan, pp. 936–942</p>
+      <h3 class="pub-title">I Spawn with My Little Eye: Low-Bandwidth Situational Awareness for CBRNE Response via Sparse Geometric Digital Twin of the Environment</h3>
+      <p class="pub-authors">Marko Kozlik, Elena Wachtler, <strong>Khawaja G. Alamdar</strong>, Karlo Cirkvencic, Frano Petric, Matko Orsag.</p>
+      <div class="pub-links">
+        <a href="https://ieeexplore.ieee.org/document/11714951" class="btn btn-sm btn-primary" target="_blank"><i class="fas fa-file-pdf"></i> paper</a>
+      </div>
+    </div>
+  </article>
+
+  <article class="pub-card reveal">
+    <div class="pub-media">
       <span class="pub-index">[07]</span>
       <img src="/assets/paper_imgs/llm.png" alt="LLM-Enabled Human-in-the-Loop Control">
     </div>
@@ -162,11 +177,14 @@ permalink: /publications/
   </div>
   <p class="accepted-sub">// accepted &middot; awaiting publication</p>
 
+  <!-- ACCEPTED ITEM TEMPLATE — replace the acc-note below with one or more of:
   <div class="acc-item">
-    <p class="acc-venue"><span class="acc-badge">RO-MAN '26</span></p>
-    <h3 class="acc-name">I Spawn With My Little Eye: Low-Bandwidth Situational Awareness for CBRNe Response via Sparse Geometric Digital Twin of the Environment</h3>
-    <p class="acc-authors">Marko Kozlik, Elena Wachtler, <strong>Khawaja G. Alamdar</strong>, Karlo Cirkvencic, Frano Petric, Matko Orsag.</p>
+    <p class="acc-venue"><span class="acc-badge">VENUE 'YY</span></p>
+    <h3 class="acc-name">Paper Title</h3>
+    <p class="acc-authors"><strong>Khawaja G. Alamdar</strong>, Co-author 1, Co-author 2.</p>
   </div>
+  -->
+  <p class="acc-note">// queue empty &mdash; all caught up</p>
 </aside>
 
 </div>
