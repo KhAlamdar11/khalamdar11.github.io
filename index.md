@@ -9,7 +9,7 @@ title: Khawaja G. Alamdar — Multi-Robot Systems Researcher
     <div class="hero-text">
       <p class="hero-eyebrow reveal"><span class="prompt">~/zagreb/larics $</span> whoami</p>
       <h1 class="hero-name reveal delay-1">Khawaja G.<br>Alamdar<span class="accent-dot">.</span></h1>
-      <p class="hero-role reveal delay-1">researcher <span class="accent">//</span> multi-robot systems</p>
+      <p class="hero-role reveal delay-1">phd researcher <span class="accent">//</span> multi-robot systems</p>
       <p class="hero-tagline reveal delay-2">
         I teach swarms of UAVs to explore disaster zones, mind their batteries,
         and — above all — never drop the connection. Currently keeping
@@ -61,7 +61,7 @@ title: Khawaja G. Alamdar — Multi-Robot Systems Researcher
   </div>
   <div class="about-grid">
     <div class="about-text reveal">
-      <p>I am a researcher at the <a href="https://larics.fer.hr/" target="_blank">Laboratory for Robotics and Intelligent Control Systems (LARICS)</a> at FER, University of Zagreb, working on multi-robot systems for search and rescue missions. My research focuses on decentralized control and connectivity maintenance for UAV swarms — making sure that when robots spread out into the unknown, the network holds.</p>
+      <p>I am a PhD student at the <a href="https://www.fer.unizg.hr/en" target="_blank">Faculty of Electrical Engineering and Computing (FER)</a>, University of Zagreb, and a researcher at the <a href="https://larics.fer.hr/" target="_blank">Laboratory for Robotics and Intelligent Control Systems (LARICS)</a>, working on multi-robot systems for search and rescue missions. My research focuses on decentralized control and connectivity maintenance for UAV swarms — making sure that when robots spread out into the unknown, the network holds.</p>
       <p>Before this, I completed the Erasmus Mundus Master's in <a href="https://ifrosmaster.org/" target="_blank">Intelligent Field Robotic Systems (IFRoS)</a> across the Universitat de Girona and the University of Zagreb, specializing in aerial vehicles and multi-robot systems.</p>
       <p>I hold a BSc in Electrical Engineering from <a href="https://habib.edu.pk/" target="_blank">Habib University</a>, where I graduated with the Dean's Medal and the Best Undergraduate Thesis Award for work on disaster-management UAVs.</p>
     </div>
@@ -70,6 +70,10 @@ title: Khawaja G. Alamdar — Multi-Robot Systems Researcher
       <div class="fact">
         <span class="fact-key">focus</span>
         <span class="fact-val">UAV swarms &middot; connectivity &middot; decentralized control</span>
+      </div>
+      <div class="fact">
+        <span class="fact-key">phd</span>
+        <span class="fact-val">FER, University of Zagreb &middot; since 2026.10</span>
       </div>
       <div class="fact">
         <span class="fact-key">lab</span>
@@ -106,6 +110,11 @@ title: Khawaja G. Alamdar — Multi-Robot Systems Researcher
       <span class="term-title">~/news/mission_log.txt — updated live</span>
     </div>
     <div class="term-body">
+      <div class="log-line">
+        <span class="log-date">2026.10</span>
+        <span class="log-tag tag-edu">EDU</span>
+        <p class="log-text">Started my PhD at <a href="https://www.fer.unizg.hr/en" target="_blank">FER</a>, University of Zagreb.</p>
+      </div>
       <div class="log-line">
         <span class="log-date">2025.12</span>
         <span class="log-tag tag-award">AWRD</span>
@@ -221,6 +230,20 @@ title: Khawaja G. Alamdar — Multi-Robot Systems Researcher
       <span class="tl-node"></span>
       <div class="tl-card">
         <div class="tl-top">
+          <h3 class="tl-role">PhD</h3>
+          <span class="tl-date">2026 — now</span>
+        </div>
+        <p class="tl-org"><a href="https://www.fer.unizg.hr/en" target="_blank">FER</a> &middot; University of Zagreb</p>
+        <p class="tl-desc">Doctoral research at LARICS on multi-robot systems, decentralized control, and connectivity maintenance for UAV swarms.</p>
+        <div class="tl-tags">
+          <span>multi-robot systems</span><span>UAV swarms</span><span>connectivity</span>
+        </div>
+      </div>
+    </div>
+    <div class="tl-item reveal">
+      <span class="tl-node"></span>
+      <div class="tl-card">
+        <div class="tl-top">
           <h3 class="tl-role">MSc Intelligent Field Robotic Systems</h3>
           <span class="tl-date">2022 — 2024</span>
         </div>
@@ -278,6 +301,6 @@ title: Khawaja G. Alamdar — Multi-Robot Systems Researcher
 <section class="section contact-cta" id="contact">
   <p class="cta-eyebrow reveal"><span class="prompt">$</span> ping khawaja --collab</p>
   <h2 class="cta-title reveal delay-1">Let's build something that flies<span class="accent-dot">.</span></h2>
-  <p class="cta-text reveal delay-2">Open to research collaborations, PhD adventures, and conversations about robot swarms, connectivity, and field robotics.</p>
+  <p class="cta-text reveal delay-2">Open to research collaborations and conversations about robot swarms, connectivity, and field robotics.</p>
   <a href="mailto:{{ site.email }}" class="btn btn-primary reveal delay-3"><i class="fas fa-paper-plane"></i> say hello</a>
 </section>

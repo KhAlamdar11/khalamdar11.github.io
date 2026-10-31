@@ -1,6 +1,6 @@
 # khalamdar11.github.io
 
-Personal website of **Khawaja G. Alamdar** — researcher in multi-robot systems at LARICS, University of Zagreb.
+Personal website of **Khawaja G. Alamdar** — PhD student at FER and researcher in multi-robot systems at LARICS, University of Zagreb.
 
 Live at [khalamdar11.github.io](https://khalamdar11.github.io/).
 
